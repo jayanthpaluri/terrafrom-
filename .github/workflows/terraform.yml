@@ -20,8 +20,8 @@ jobs:
       ARM_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
 
     defaults:
-  run:
-    working-directory: ./terraform_partciece
+      run:
+        working-directory: ./terraform_partciece
 
     steps:
       - name: Checkout Repository
